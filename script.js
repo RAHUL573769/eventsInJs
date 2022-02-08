@@ -17,3 +17,10 @@ console.log(green);
 green.onclick = function(){
     document.body.style.backgroundColor='green'; 
 }
+
+
+
+const pink=document.getElementById("makePink");
+pink.addEventListener('click',function (){
+    document.body.style.backgroundColor='pink'; 
+})
